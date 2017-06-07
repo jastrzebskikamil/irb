@@ -1,0 +1,20 @@
+{% extends "personal/header.html" %}
+
+		{% block content %}
+		<div class="jumbotron text-center">
+			<h1>Irb Sterowanie</h1> 
+		{% for c in content%}
+		
+			<p>{{c}}</p> 
+			{%endfor%}
+			<form class="form-inline">
+				<div class="input-group">
+				<!-- <input type="email" class="form-control" size="50" placeholder="adres e-mail" required>
+				<			div class="input-group-btn">
+					<button type="button" class="btn btn-danger">Subskrybuj</button>
+					</div-->
+				</div>
+			</form>
+		</div>
+		
+	    {% endblock %}	
